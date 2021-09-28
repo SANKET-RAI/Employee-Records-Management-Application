@@ -8,6 +8,5 @@ CLI options: <br />
  4 - Read an employee record <br />
  
  # To View The Code of Main Project
- Main Python file can be found here : employee_records_management_cli_application/main.py <br />
- Main JSON file can be found here : employee_records_management_cli_application/data.json <br />
-[a link](https://github.com/SANKET-RAI/Employee-Records-Management-Application/blob/main/employee_records_management_cli_application/main.py)
+ Main Python file can be found here : [main.py](https://github.com/SANKET-RAI/Employee-Records-Management-Application/blob/main/employee_records_management_cli_application/main.py) <br />
+ Main JSON file can be found here : [data.json](https://github.com/SANKET-RAI/Employee-Records-Management-Application/blob/main/employee_records_management_cli_application/data.json) <br />
