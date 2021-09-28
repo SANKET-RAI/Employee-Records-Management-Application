@@ -27,21 +27,27 @@ class Employee:
             print("Date of Birth :", self.dob)
             print("Age :", self.age)
             print("Project Names :", end=" ")
-            for p_name in range(0, len(self.project_name)):
-                if p_name == len(self.project_name) - 1:
-                    print(self.project_name[p_name] + ".")
-                elif p_name == len(self.project_name) - 2:
-                    print(self.project_name[p_name], end=" & ")
-                else:
-                    print(self.project_name[p_name], end=", ")
+            try:
+                for p_name in range(0, len(self.project_name)):
+                    if p_name == len(self.project_name) - 1:
+                        print(self.project_name[p_name] + ".")
+                    elif p_name == len(self.project_name) - 2:
+                        print(self.project_name[p_name], end=" & ")
+                    else:
+                        print(self.project_name[p_name], end=", ")
+            except:
+                print("None")
             print("Skill Sets :", end=" ")
-            for skills in range(0, len(self.skill_set)):
-                if skills == len(self.skill_set) - 1:
-                    print(self.skill_set[skills] + ".")
-                elif skills == len(self.skill_set) - 2:
-                    print(self.skill_set[skills], end=" & ")
-                else:
-                    print(self.skill_set[skills], end=", ")
+            try:
+                for skills in range(0, len(self.skill_set)):
+                    if skills == len(self.skill_set) - 1:
+                        print(self.skill_set[skills] + ".")
+                    elif skills == len(self.skill_set) - 2:
+                        print(self.skill_set[skills], end=" & ")
+                    else:
+                        print(self.skill_set[skills], end=", ")
+            except:
+                print("None")
         else:
             print("Cannot Display Admin details, it is confidential !")
 
@@ -120,9 +126,15 @@ def update(emp_id):
         new_name = input("Enter updated name : ")
         if new_name == "":
             new_name = temp_emp[0]["name"]
-        new_user_type = input("Enter updated user type : ")
-        if new_user_type == "":
-            new_user_type = temp_emp[0]["user_type"]
+        while True:
+            new_user_type = input("Enter updated user type : ")
+            if new_user_type == "":
+                new_user_type = temp_emp[0]["user_type"]
+                break
+            elif new_user_type.lower() == "admin":
+                print("Cannot change user type to admin, please enter user type again !")
+            else:
+                break
         temp_new_years_of_experience = input("Enter updated years of experience : ")
         if temp_new_years_of_experience == "":
             new_years_of_experience = temp_emp[0]["years_of_experience"]
@@ -158,10 +170,13 @@ def update(emp_id):
 
 def delete(emp_id):
     if emp_id in json_data:
-        print("Employee details corresponding to employee id :", emp_id, "deleted successfully !")
-        del json_data[emp_id]
-        with open(file, "w") as json_file:
-            json.dump(json_data, json_file, indent=4)
+        if json_data[emp_id][0]["user_type"].lower() == "admin":
+            print("Cannot delete admin user !")
+        else:
+            print("Employee details corresponding to employee id :", emp_id, "deleted successfully !")
+            del json_data[emp_id]
+            with open(file, "w") as json_file:
+                json.dump(json_data, json_file, indent=4)
     else:
         print("Please enter a valid employee id which exists in the database !")
 
