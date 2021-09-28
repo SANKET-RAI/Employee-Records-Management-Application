@@ -1,6 +1,5 @@
 # Employee-Records-Management-Application
 This is a CLI based application which will collect the employee data from the user.
-
 It updates the JSON file whenever we make changes in data using the CLI.
 CLI options:
  1 - Add an employee record
