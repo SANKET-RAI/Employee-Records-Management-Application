@@ -1,0 +1,102 @@
+{
+    "0001": [
+        {
+            "name": "Sanket Rai",
+            "user_type": "admin",
+            "years_of_experience": 1,
+            "joining_date": "2021-08-28",
+            "dob": "2000-02-24",
+            "age": 21,
+            "project_name": [
+                "bitcoin price prediction",
+                "cli based DBMS application",
+                "memes sharing android app"
+            ],
+            "skill_set": [
+                "Python",
+                "Machine Learning",
+                "Android Development"
+            ]
+        }
+    ],
+    "0002": [
+        {
+            "name": "Bhushan Mandlik",
+            "user_type": "employee",
+            "years_of_experience": 1,
+            "joining_date": "2021-08-28",
+            "dob": "2021-01-01",
+            "age": 0,
+            "project_name": [
+                "project1",
+                "project2",
+                "project3"
+            ],
+            "skill_set": [
+                "skill1",
+                "skill2",
+                "skill3"
+            ]
+        }
+    ],
+    "0003": [
+        {
+            "name": "Bhojraj Bharmbde",
+            "user_type": "employee",
+            "years_of_experience": 1,
+            "joining_date": "2021-08-28",
+            "dob": "2021-01-01",
+            "age": 0,
+            "project_name": [
+                "project1",
+                "project2",
+                "project3"
+            ],
+            "skill_set": [
+                "skill1",
+                "skill2",
+                "skill3"
+            ]
+        }
+    ],
+    "0004": [
+        {
+            "name": "Rohit Shikhre",
+            "user_type": "employee",
+            "years_of_experience": 1,
+            "joining_date": "2021-08-28",
+            "dob": "2021-01-01",
+            "age": 0,
+            "project_name": [
+                "project1",
+                "project2",
+                "project3"
+            ],
+            "skill_set": [
+                "skill1",
+                "skill2",
+                "skill3"
+            ]
+        }
+    ],
+    "1234": [
+        {
+            "name": "Robert",
+            "user_type": "employee",
+            "years_of_experience": 1,
+            "joining_date": "yyyy-mm-dd",
+            "dob": "yyyy-mm-dd",
+            "age": 21,
+            "project_name": [
+                "project1",
+                "project2",
+                "project3"
+            ],
+            "skill_set": [
+                "skill1",
+                "skill2",
+                "skill3"
+            ]
+        }
+    ]
+}
