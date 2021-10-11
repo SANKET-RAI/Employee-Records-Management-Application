@@ -1,0 +1,6 @@
+2021-10-11 23:17:49,407 : Fetched Records of Employee Id : 0002, Employee Name : Bhushan Mandlik, Employee User Type : employee
+2021-10-11 23:19:31,460 : Created New Record With Employee Id : 5678, Employee Name : justin, Employee User Type : employee
+2021-10-11 23:19:47,174 : Fetched Records of Employee Id : 5678, Employee Name : justin, Employee User Type : employee
+2021-10-11 23:20:15,908 : Updated Record With Employee Id : 5678, Employee Name : timberlake, Employee User Type : employee
+2021-10-11 23:20:26,337 : Fetched Records of Employee Id : 5678, Employee Name : timberlake, Employee User Type : employee
+2021-10-11 23:20:38,012 : Deleted Record With Employee Id : 5678, Employee Name : timberlake, Employee User Type : employee
