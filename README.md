@@ -17,5 +17,5 @@ CLI options: <br />
  Delete Records file can be found here : [delete_records.py](https://github.com/SANKET-RAI/Employee-Records-Management-Application/blob/main/employee_records_management_cli_application/delete_records.py) <br />
 
 # Logging Feature Added
-Logs are generated whenever employee records are Viewed, Added, Dpdated & Deleted. <br />
+Logs are generated whenever employee records are Viewed, Added, Updated & Deleted. <br />
 Log File can be found here : [employee_information.log](https://github.com/SANKET-RAI/Employee-Records-Management-Application/blob/main/employee_records_management_cli_application/employee_information.log) <br />
